@@ -83,7 +83,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="1497"/>
+                <sel id="5"/>
             </selection>
         </object>
         <object class="WED_FacadeNode" id="1538" parent_id="1533">
@@ -153,7 +153,7 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="4868"/>
+                <child id="1576"/>
                 <child id="5"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
@@ -185,7 +185,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="1576"/>
                 <child id="1567"/>
                 <child id="1575"/>
                 <child id="1566"/>
@@ -201,7 +200,7 @@
                 <child id="4613"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Lakeview"/>
-            <airport always_flatten="0" drive_on_left="0" elevation="163.1" has_atc="0" icao="30F" kind="Airport" scenery_id="56049"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="163.1" has_atc="0" icao="30F" kind="Airport" scenery_id="56216"/>
             <meta_data>
                 <meta_data_entry pair="city,Lake Dallas"/>
                 <meta_data_entry pair="country,United States"/>
@@ -636,6 +635,7 @@
                 <child id="1551"/>
                 <child id="1550"/>
                 <child id="1549"/>
+                <child id="4868"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Parked Vehicle"/>
         </object>
@@ -873,7 +873,7 @@
                 <marking value="Runway Hold"/>
             </markings>
         </object>
-        <object class="WED_Group" id="1576" parent_id="5">
+        <object class="WED_Group" id="1576" parent_id="4">
             <sources/>
             <viewers/>
             <children>
@@ -5603,7 +5603,7 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="33.134226244" longitude="-97.015628846" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
-        <object class="WED_ObjPlacement" id="4868" parent_id="4">
+        <object class="WED_ObjPlacement" id="4868" parent_id="1567">
             <sources/>
             <viewers/>
             <children/>
@@ -5790,7 +5790,12 @@
     <prefs>
         <pref name="PropertyPane0/Closed">
             <item value="9"/>
+            <item value="11"/>
+            <item value="15"/>
             <item value="17"/>
+            <item value="1325"/>
+            <item value="1443"/>
+            <item value="1444"/>
             <item value="1565"/>
             <item value="1566"/>
             <item value="1567"/>
